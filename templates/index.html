@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areeba Waqas | DevOps Flask Project</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+
+    <header class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <h1>Areeba Waqas</h1>
+
+            <p class="subtitle">
+                DevOps & Cloud Enthusiast | Docker • CI/CD • Flask • Linux
+            </p>
+
+            <div class="buttons">
+
+                <a href="https://github.com/areeba-waqas/flask-devops-project" target="_blank">
+                    GitHub Repository
+                </a>
+
+                <a href="https://new-project-production.up.railway.app" target="_blank">
+                    Live Deployment
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ABOUT -->
+
+    <section class="card">
+
+        <h2>📌 About This Project</h2>
+
+        <p>
+            This Flask DevOps project demonstrates a complete modern deployment workflow using
+            Docker containerization, GitHub Actions CI/CD automation,
+            Railway cloud deployment, and Linux-based development environment.
+        </p>
+
+    </section>
+
+    <!-- TECHNOLOGIES -->
+
+    <section class="card">
+
+        <h2>🛠️ Technologies Used</h2>
+
+        <div class="skills">
+
+            <span>Flask</span>
+            <span>Docker</span>
+            <span>GitHub Actions</span>
+            <span>Railway</span>
+            <span>Linux</span>
+            <span>Python</span>
+            <span>Git</span>
+            <span>CI/CD</span>
+
+        </div>
+
+    </section>
+
+    <!-- DOCKER -->
+
+    <section class="card">
+
+        <h2>🐳 Docker Integration</h2>
+
+        <p>
+            The application is fully containerized using Docker to ensure consistent
+            deployment across different environments.
+        </p>
+
+        <pre>
+docker build -t flask-devops-project .
+docker run -d -p 5000:5000 flask-devops-project
+        </pre>
+
+    </section>
+
+    <!-- CI/CD -->
+
+    <section class="card">
+
+        <h2>⚙️ CI/CD Pipeline</h2>
+
+        <p>
+            GitHub Actions automatically builds the Docker image whenever new code
+            is pushed to the main branch.
+        </p>
+
+        <div class="pipeline">
+
+            <div>Code Push</div>
+            <div>GitHub Actions</div>
+            <div>Docker Build</div>
+            <div>Railway Deploy</div>
+
+        </div>
+
+    </section>
+
+    <!-- ARCHITECTURE -->
+
+    <section class="card">
+
+        <h2>🏗️ Architecture Workflow</h2>
+
+<pre>
+Developer
+   ↓
+GitHub Repository
+   ↓
+GitHub Actions CI/CD
+   ↓
+Docker Build
+   ↓
+Railway Deployment
+   ↓
+Live Flask Application
+</pre>
+
+    </section>
+
+    <!-- FEATURES -->
+
+    <section class="card">
+
+        <h2>🚀 Key Features</h2>
+
+        <ul>
+
+            <li>Professional Flask Web Application</li>
+            <li>Dockerized Deployment Workflow</li>
+            <li>Automated CI/CD Pipeline</li>
+            <li>Cloud Deployment with Railway</li>
+            <li>Linux-Based Development Environment</li>
+            <li>Version Control using Git & GitHub</li>
+
+        </ul>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>Built by Areeba Waqas 💻</p>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    line-height: 1.6;
+}
+
+/* HERO */
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background:
+        linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.9)),
+        url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1974&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    z-index: 2;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    color: #cbd5e1;
+}
+
+/* BUTTONS */
+
+.buttons {
+    margin-top: 35px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+.buttons a:hover {
+    background: #1d4ed8;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(37,99,235,0.4);
+}
+
+/* CARDS */
+
+.card {
+    width: 85%;
+    max-width: 1100px;
+    margin: 50px auto;
+    background: #1e293b;
+    padding: 40px;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    color: #60a5fa;
+    margin-bottom: 20px;
+}
+
+/* SKILLS */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills span {
+    background: #2563eb;
+    padding: 12px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.skills span:hover {
+    transform: scale(1.05);
+    background: #1d4ed8;
+}
+
+/* PIPELINE */
+
+.pipeline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.pipeline div {
+    background: #2563eb;
+    padding: 15px 25px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.pipeline div:hover {
+    transform: translateY(-5px);
+}
+
+/* PRE */
+
+pre {
+    background: #0f172a;
+    color: #38bdf8;
+    padding: 25px;
+    border-radius: 15px;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+/* LIST */
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 12px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #94a3b8;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 768px) {
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .buttons a {
+        display: block;
+        margin: 15px auto;
+        width: 80%;
+    }
+}

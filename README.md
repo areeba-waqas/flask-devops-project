@@ -26,6 +26,8 @@ The objective of this project is to automate software delivery, infrastructure p
 
 # 🏗️ Project Architecture
 
+![Project Architecture](images/architecture.png)
+
 ```text
                     ┌────────────────────┐
                     │      Developer     │
